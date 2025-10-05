@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Carta para Lari 💌</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background: #fff6f6;
+      color: #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+    #login, #content {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      padding: 30px;
+      max-width: 700px;
+      width: 90%;
+      line-height: 1.8;
+    }
+    input {
+      padding: 10px;
+      width: 80%;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    button {
+      padding: 10px 20px;
+      margin-left: 10px;
+      border: none;
+      background: #b44;
+      color: white;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    h1 { text-align: center; color: #b44; }
+    p { text-indent: 25px; margin-bottom: 20px; }
+  </style>
+</head>
+<body>
+
+<div id="login">
+  <h1>Digite a senha 🔒</h1>
+  <input type="password" id="senha" placeholder="Senha">
+  <button onclick="verificarSenha()">Entrar</button>
+</div>
+
+<div id="content" style="display:none;">
+  <h1>Para Lari ❤️</h1>
+
+  <p>Lari, estava sem nada para fazer e resolvi brincar de criar "site", kkkkkkkkk.</p>
+  <p>Então, o teste que fiz foi este: criar um texto para você, para agradecer por estes últimos dias.</p>
+  <p>Eu realmente fiquei muito feliz por saber que, depois de tudo que aconteceu, você ainda confia em mim e que seu sentimento não mudou. Você não tem ideia do quanto eu fiquei mal, com medo de realmente ter perdido a sua amizade. Eu sei que ela não voltou a ser como era antes, mas acredito que, de certa forma, esteja melhor, porque eu espero que você não se sinta mais pressionada em "ter" que conversar comigo. Eu realmente me esforcei bastante nestes últimos dias. Sei que muitas vezes ainda exagero nas mensagens, mas é porque sempre tenho algo para compartilhar com você, ou realmente quero saber como você está pelo fato de me preocupar. Eu sei que sou intenso até demais, e isso é bom e ruim, mas, de coração, eu só quero que você seja feliz.</p>
+
+  <p>Eu sempre falei que você não tem noção do quanto é importante para mim, do quanto se tornou essencial e me ajudou, e do quanto eu sinto que devo algo para você por conta dessa amiga que você é. Óbvio que, no início, eu me apeguei muito a você de outra forma, mas, com o tempo, eu transformei todo o sentimento que eu tinha em um sentimento de amizade verdadeira. Eu faço questão de sempre tentar te ajudar em tudo, te animar, te alegrar com presentes ou levando para comer, porque isso, para mim, faz sentido. Você é a pessoa com quem eu mais me identifico, Lari, por conta dos pensamentos parecidos, alinhados, de tudo que passamos nestes anos, pela maturidade que temos. Eu espero, de coração, que você saiba que tudo que eu faço por você e o tanto que eu me importo é porque você é a minha melhor amiga e uma das pessoas mais importantes da minha vida.</p>
+
+  <p>Eu peço desculpas por ser ansioso, por sempre estar mandando mensagens, mas hoje eu acho que faço isso de uma forma diferente e mais leve, então espero que você não se sinta mais pressionada. Eu tenho muito medo de vacilar contigo de novo, porque eu não imagino viver tudo que eu venho vivendo, conquistando e melhorando sem ter minha melhor amiga por perto, porque você faz parte de tudo isso. Por isso eu sinto que devo muito para você. Sempre falei que, de certa forma, você me salvou, e não falo isso da boca para fora. Lari, você voltou a fazer eu ter fé, a acreditar nas coisas e a querer correr atrás das coisas novamente.</p>
+
+  <p>Eu admiro demais você, admiro todas as suas fases e a forma com que você lida com elas. Eu acho que conheço praticamente todas as versões da Lari: a versão de quando está afim de alguém, a versão carente, a versão maromba, a versão estressada, triste, distante, carinhosa, grossa, de TPM, com fome, alegre de bebida, e por aí vai. Tirando a parte do quanto você é trabalhadora, guerreira, amiga, coração gigante, resiliente, família, carinhosa, amorosa, e por aí vai... E ainda tem a parte física, que eu sempre falei que te acho perfeita, né?! Baixinha, bunduda, barriguinha maravilhosa, peito pequeno (não briga, kkkkk), pele clara, boca linda, sorriso perfeito, olhos maravilhosos e o cabelo... ahhh, o cabelo da Larissa! Kkkkkkkkkk.</p>
+
+  <p>Juntando tudo isso que eu falei, você se torna a mulher que mais admiro no mundo, por conta das batalhas, conquistas, ciclos, beleza e por aí vai. Eu quero ver sempre você conquistando suas coisas e sempre vencendo na vida, e quero acompanhar isso do seu lado, sendo seu melhor amigo, sendo alguém em quem você confie e que eu sempre possa te impulsionar, porque eu sempre disse que ver você feliz me deixa feliz também, e para mim, esse sempre foi um dos maiores sentidos da vida: fazer o bem para o próximo... E quando o próximo for alguém que a gente ama e admira, fazer dez vezes mais por essa pessoa.</p>
+</div>
+
+<script>
+function verificarSenha() {
+  const senhaCorreta = "Lariii"; // 🔒 altere aqui
+  const senha = document.getElementById("senha").value;
+  if (senha === senhaCorreta) {
+    document.getElementById("login").style.display = "none";
+    document.getElementById("content").style.display = "block";
+  } else {
+    alert("Senha incorreta 😅");
+  }
+}
+</script>
+
+</body>
+</html>
